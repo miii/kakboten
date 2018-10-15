@@ -1,0 +1,439 @@
+@font-face {
+	
+	font-family: agn2;
+	src: url('/fonts/font.otf');
+	
+}
+
+@font-face {
+	
+	font-family: agn2;
+	src: url('/fonts/font.ttf');
+	
+}
+
+body {
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	background:#DDD;
+	height:100%;
+	
+}
+
+a:link,
+a:visited {
+	
+	color: inherit;
+	
+}
+
+#menu {
+
+	height:40px;
+	width:100%;
+	position:fixed;
+	background-color:#222;	
+	z-index:100;
+	top:0;
+	border-bottom:1px solid #FFF;
+	font-family:agn2, Tahoma, Geneva, sans-serif;
+	
+}
+
+.left { float:left; }
+.right { float:right; }
+
+#menu a {
+	
+	color:#FFF;
+	font-size:20px;
+	text-decoration:none;
+	line-height:40px;
+	padding:0 15px;
+	
+}
+
+	#menu a:link:hover {
+		
+		background-color: #333;
+		
+	}
+	
+#copyright {
+
+	position:fixed;
+	bottom:0;
+	left:0;
+	text-align:center;
+	width:100%;
+	height:100px;
+	line-height:170px;
+	font-size:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#888;
+	background: url('/images/footerbg.png') bottom;
+	
+}
+
+	#copyright a:link,
+	#copyright a:visited {
+		
+		color:#888;
+		text-decoration:none;
+		text-shadow:1px 1px 1px #EEE;
+		
+	}
+	
+	#copyright a:hover,
+	#back:hover {
+		
+		color:#444;
+		
+	}
+	
+#fbrss {
+
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index:20;
+	width:53px;
+	height:70px;
+	
+}
+
+a:link, a:visited {
+	
+	text-decoration:none;
+	
+}
+
+
+
+#back {
+	
+	position: fixed;
+	left:8px;
+	bottom:8px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#888;
+	font-size:15px;
+	z-index: 20;
+	
+}
+
+#logo {
+	
+	left:50%;
+	margin-left: -350px;
+	position: absolute;
+	margin-top:50px;
+	
+}
+
+#foodwrapper {
+	
+	width:600px;
+	position: absolute;
+	left:50%;
+	margin:250px 0 0 -293px;
+	padding-bottom: 100px;
+	
+}
+
+.food {
+	
+	border:1px solid #CCC;
+	background-color:#EEE;
+	padding: 20px;
+	margin-bottom: 20px;
+	overflow: visible;
+	
+}
+
+.food h1 {
+	
+	vertical-align:middle;
+	text-shadow:1px 1px 1px #FFF;
+	color:#000;
+	font-size:38px;
+	text-transform:uppercase;
+	margin-bottom: 15px;
+	width: 497px;
+	font-family:agn2, Tahoma, Geneva, sans-serif;
+	
+}
+
+.food h2 {
+	
+	vertical-align:middle;
+	text-shadow:1px 1px 1px #FFF;
+	color:#000;
+	font-size:22px;
+	text-transform:uppercase;
+	margin-top: -15px;
+	width: 480px;
+	font-family:agn2, Tahoma, Geneva, sans-serif;
+	
+}
+
+.food img {
+	
+	width: 538px;
+	padding: 10px;
+	border:1px solid #CCC;
+	background:#FFF;
+	font-family: Tahoma;
+	font-weight: bold;
+	margin-top: 15px;
+	
+}
+	
+.fblike {
+	
+	width:45px;
+	height:60px;
+	float:right;
+	margin-top:-63px;
+	
+}
+
+#foodfooter {
+	
+	margin-top: 10px;
+	height: 20px;
+	font-family: Tahoma;
+	font-size: 12px;
+	color:#555;
+	text-align: right;
+	line-height: 25px;
+	
+}
+
+#foodfooter .fb-like {
+	
+	float: left;
+	position: relative;
+	margin-top: 3px;
+	
+}
+
+#label {
+	
+	width:55px;
+	height:42px;
+	float:right;
+	margin-top:-56px;
+	text-transform:uppercase;
+	text-align: center;
+	line-height: 25px;
+	text-shadow: 1px 1px 1px #FFF;
+	font-family:agn2, Tahoma, Geneva, sans-serif;
+	
+}
+
+#label h3 {
+	
+	font-size: 38px;
+	
+}
+
+#served {
+	
+	margin: -20px 20px 20px 20px;
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	border-top: 0;
+	padding: 10px 20px 20px 20px;
+	font-size: 13px;
+	font-family: Tahoma;
+	display: none;
+	
+}
+
+#served table {
+	
+	width: 100%;
+	
+}
+
+#served table td {
+	
+	padding: 5px;
+	
+}
+
+#served .title {
+	
+	font-family: agn2;
+	font-size: 20px;
+	
+}
+
+#served .dark {
+	
+	background-color: #E6E6E6;
+	
+}
+
+.tipsy {
+	
+	font-size: 11px !important;
+	line-height: 14px !important;
+	opacity: 0.85 !important;
+	
+}
+
+#searchbox {
+	
+	position:fixed;
+	right:10px;
+	top:50px;
+	height: 52px;
+	width: 52px;
+	opacity: 0.6;
+	background: url('/images/search.png') no-repeat center #F5F5F5;
+	border: 1px solid #CCC;
+	
+}
+
+#searchbox:hover {
+	
+	opacity: 1;
+	
+}
+
+.search .text {
+	
+	width: 425px;
+	padding: 10px;
+	color: #888;
+	margin-right: 10px;
+	
+}
+
+.search .submit {
+	
+	width: 100px;
+	height: 37px;
+	
+}
+
+.search .dropdown {
+	
+	padding: 10px;
+	width: 142px;
+	margin-right: 10px;
+	color: #555;
+	
+}
+
+.searchResults {
+	
+	padding: 20px !important;
+	color:#444;
+	
+}
+
+.searchResults * {
+	
+	font-family: agn2;
+	font-size: 20px;
+	
+}
+
+.searchResults .type {
+	
+	width: 40px;
+	text-align: center;
+	
+}
+
+.searchResults td {
+	
+	padding:8px !important;
+	
+}
+
+.searchResults tr:hover {
+	
+	padding:10px;
+	cursor: pointer;
+	background-color: #DDD !important;
+	color:#000 !important;
+	
+}
+
+#searchResults h6 {
+	
+	text-align: center;
+	
+}
+
+img.school {
+	
+	margin:0 0 50px 190px;
+	width: 220px;
+	border: 0;
+	background: none;
+	opacity:0.7;
+	
+}
+
+img.school:hover {
+	
+	opacity:1;
+	
+}
+
+.food p {
+	
+	line-height: 20px;
+	font-size: 15px;
+	font-family: Arial;
+	color: #333;
+	margin-bottom: 20px;
+	
+}
+
+.food p:last-child {
+	
+	margin: 0;
+	
+}
+
+.frontTitle {
+	
+	font-family: arial;
+	line-height:25px;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	
+}
+
+.front p img {
+	
+	width: 80%;
+	margin: 20px 0 0 40px;
+	
+}
+
+img.noMarginTop {
+	
+	margin-top:0;
+	
+}
+
+#foodwrapper > h1 {
+	
+	vertical-align:middle;
+	text-align:center;
+	text-shadow:1px 1px 1px #FFF;
+	color:#000;
+	font-size:38px;
+	text-transform:uppercase;
+	margin-bottom: 15px;
+	font-family:agn2, Tahoma, Geneva, sans-serif;
+	
+}

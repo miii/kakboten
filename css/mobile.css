@@ -1,0 +1,125 @@
+#logo {
+	
+	margin:0;
+	position:inherit;
+	left:inherit;
+	width: 100%;
+	
+}
+
+#foodwrapper {
+	
+	left:inherit;
+	margin: 10px;
+	position: inherit;
+	width: inherit;
+	padding-bottom: 0;
+	
+}
+
+#foodwrapper > h1 {
+	
+	font-size: 30px;
+	
+}
+
+.food {
+	
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+
+h1.mobileimg {
+	
+	margin-bottom: 0;
+	
+}
+
+.food img {
+
+	margin-top: 10px;
+	width:100%;
+	padding: 0;
+	
+}
+
+img.school {
+	
+	left:50%;
+	position:absolute;
+	margin: 0 0 5px -133px;
+	padding: 20px;
+	
+}
+
+#foodfooter {
+	
+	margin-top:5px;
+	
+}
+
+#foodfooter a {
+	
+	font-size: 9px;
+	
+}
+
+#menu {
+	
+	position: inherit;
+	top:inherit;
+	height: 30px;
+	border-bottom: 0;
+	
+}
+
+#menu a {
+	
+	font-size:13px;
+	padding: 0 8px;
+	line-height: 33px;
+	
+}
+
+.mobilehide,
+#foodfooter a:first-child,
+#back,
+#searchbox,
+#copyright,
+#fbrss,
+#label,
+div.fb-like {
+	
+	display:none;
+	
+}
+
+.food h1 {
+	
+	font-size: 22px;
+	width: auto;
+	
+}
+
+.food h2 {
+	
+	font-size: 17px;
+	width: auto;
+	margin-bottom: 0;
+	
+}
+
+#served {
+	
+	margin: -10px 10px 10px 10px;
+	font-size:10px;
+	padding:10px;
+	
+}
+
+#served .title {
+	
+	font-size:14px;
+	
+}
